@@ -21,7 +21,7 @@
 */
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* #### Gilroy Font family #### */
 @font-face {
   font-family: "Gilroy-Bold";
@@ -209,3 +209,41 @@ label {
   opacity: 1;
 }
 
+/* header area */
+.header-btn {
+  margin-top: 68px;
+  margin-left: 50px;
+}
+.header-btn a {
+  color: #131314;
+  font-size: 16px;
+  font-family: "Gilroy-Bold";
+  border: 2px solid #515bf9;
+  height: 50px;
+  padding: 0 35px;
+  line-height: 45px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 33px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.header-btn a:hover {
+  background-color: #515bf9;
+  color: #fff;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.main-menu ul li a {
+  color: #131314;
+  font-size: 18px;
+  font-family: "Gilroy-Bold";
+  padding: 80px 0;
+  display: block;
+  text-decoration: none;
+}
+.main-menu ul li:hover > a {
+  color: #515bf9;
+}
