@@ -314,3 +314,19 @@ label {
 .slider-btn a {
   font-size: 18px;
 }
+/* about area */
+.about-text span {
+  color: #515bf9;
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+.about-text h3 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.about-text p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
