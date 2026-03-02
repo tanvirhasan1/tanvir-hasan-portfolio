@@ -208,8 +208,40 @@ label {
   font-size: 14px;
   opacity: 1;
 }
-
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+/* button style */
+.default-btn {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Gilroy-Bold";
+  border: 2px solid transparent;
+  height: 50px;
+  padding: 0 35px;
+  line-height: 45px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 33px;
+  background-color: #515bf9;
+  transition: all 0.3s;
+}
+.default-btn:hover {
+  color: #515bf9;
+  background-color: #fff;
+  border-color: #515bf9;
+}
 /* header area */
+.header-transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
 .header-btn {
   margin-top: 68px;
   margin-left: 50px;
@@ -246,4 +278,47 @@ label {
 }
 .main-menu ul li:hover > a {
   color: #515bf9;
+}
+/* slider area */
+.popup-icon .popup {
+  position: absolute;
+}
+.popup-icon .popup.popup_one {
+  top: 50%;
+  left: 49%;
+}
+.popup-icon .popup.popup_two {
+  top: 29%;
+  left: 75%;
+}
+.popup-icon .popup.popup_three {
+  top: 69%;
+  left: 76%;
+}
+.slider-height {
+  height: 1080px;
+}
+.slider-text h2 {
+  font-size: 48px;
+  line-height: 96px;
+  margin-bottom: 20px;
+}
+.slider-text h2 > span {
+  color: #515bf9;
+  font-size: 84px;
+  display: block;
+}
+.slider-text > span {
+  color: #131314;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: block;
+}
+.slider-text p {
+  font-size: 24px;
+  line-height: 36px;
+}
+.slider-btn a {
+  font-size: 18px;
 }
