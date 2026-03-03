@@ -330,3 +330,75 @@ label {
   text-align: justify;
   margin-bottom: 30px;
 }
+/* project area */
+.project-img img {
+  width: 100%;
+}
+.project-img::before {
+  content: "";
+  background: rgba(81, 91, 249, 0);
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(8px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s;
+  opacity: 1;
+  border-radius: 8px;
+}
+.single-project:hover .project-img::before {
+  background: rgba(81, 91, 249, 0.15);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+.project-info-link {
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+.single-project:hover .project-info-link {
+  opacity: 1;
+  visibility: visible;
+}
+.project-info-link a {
+  display: inline-block;
+  width: 200px;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #515bf9, #764ba2);
+  transition: all 0.3s linear;
+  margin-bottom: 20px;
+}
+.project-info-link a:hover {
+  box-shadow: 0 8px 20px rgba(118, 75, 162, 0.35);
+  background: linear-gradient(135deg, #764ba2, #515bf9);
+}
+.project-slider .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -40px;
+}
+/* title area */
+.title-area span {
+  color: #515bf9;
+  font-size: 24px;
+  font-family: "Gilroy-Bold";
+  display: block;
+  margin-bottom: 12px;
+}
+.title-area h3 {
+  font-size: 48px;
+  margin-bottom: 26px;
+}
