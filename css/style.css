@@ -420,3 +420,56 @@ label {
   font-size: 48px;
   margin-bottom: 26px;
 }
+/* services area */
+.single-service {
+  padding: 60px 70px;
+  padding-left: 60px;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 14.562px 10.58px 87px 0px rgba(10, 15, 70, 0.07);
+  transition: all .3s linear;
+  
+}
+.single-service:hover {
+  box-shadow: 14.562px 10.58px 87px 0px rgba(81, 91, 249, 0.7);
+  background-color: rgba(200, 200, 201, 0.2);
+}
+.service-text {
+	padding-left: 30px;
+}
+.service-text h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.service-text > a {
+  color: #131314;
+	font-size: 18px;
+	text-decoration: none;
+  font-family: "Gilroy-Bold";
+}
+.service-text > a:hover {
+  color: #515bf9;
+}
+.service-text > a > span {
+	width: 18px;
+	height: 2px;
+	background: #515bf9;
+	display: inline-block;
+	position: relative;
+	top: -3px;
+	left: 7px;
+}
+.why-choose {
+	padding: 0;
+	border-radius: 0;
+	background: transparent;
+	box-shadow: none;
+}
+.why-choose:hover {
+  box-shadow: unset;
+  background-color: unset;
+}
+.why-choose .service-text h3 {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
