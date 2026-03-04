@@ -32,4 +32,10 @@
     },
   });
 
+  
+  // Hover active
+  $('.hover__active').on('mouseenter', function () {
+		$(this).addClass('active').parent().siblings().find('.hover__active').removeClass('active');
+	});
+
 })(jQuery);
