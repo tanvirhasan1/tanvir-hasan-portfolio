@@ -294,7 +294,7 @@ label {
 /* slider area */
 .popup-icon .popup {
   position: absolute;
-  z-index: 99;
+  z-index: 9;
 }
 .popup-icon .popup.popup_one {
 	top: 55%;
