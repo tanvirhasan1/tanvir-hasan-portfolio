@@ -330,6 +330,19 @@ label {
   text-align: justify;
   margin-bottom: 30px;
 }
+/* skill area */
+.skill-wrapper {
+  transition-timing-function: linear !important;
+}
+.single-skill{
+	text-align: center;
+	padding: 20px 0;
+  cursor: pointer;
+}
+.single-skill img {
+	width: 110px;
+	height: auto;
+}
 /* project area */
 .project-img img {
   width: 100%;

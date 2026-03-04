@@ -8,7 +8,22 @@
     centeredSlides: true,
     loop: true,
     autoplay: {
-      delay: 2500,
+      delay: 2700,
+      disableOnInteraction: false,
+    }
+  });
+
+
+  // skill area slider 
+  var swiper = new Swiper(".skill-slider", {
+    slidesPerView: 6,
+    spaceBetween: 0,
+    centeredSlides: true,
+    loop: true,
+    speed: 4000,
+    allowTouchMove: false,
+    autoplay: {
+      delay: 0,
       disableOnInteraction: false,
     },
     pagination: {
@@ -16,4 +31,5 @@
       clickable: true,
     },
   });
+
 })(jQuery);
