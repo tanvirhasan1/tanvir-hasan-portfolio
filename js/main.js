@@ -38,4 +38,15 @@
 		$(this).addClass('active').parent().siblings().find('.hover__active').removeClass('active');
 	});
 
+  // sticky header
+  var windowOn = $(window);
+  windowOn.on('scroll', function () {
+		var scroll = $(window).scrollTop();
+		if (scroll < 100) {
+			$("#header-sticky").removeClass("sticky");
+		} else {
+			$("#header-sticky").addClass("sticky");
+		}
+	});
+
 })(jQuery);
