@@ -48,7 +48,7 @@
 
   // skill area slider 
   var swiper = new Swiper(".skill-slider", {
-    slidesPerView: 6,
+    slidesPerView: 3,
     spaceBetween: 0,
     centeredSlides: true,
     loop: true,
@@ -62,6 +62,34 @@
       el: ".swiper-pagination",
       clickable: true,
     },
+
+    breakpoints: {
+    // Small devices (≥576px)
+    576: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+
+    // Medium devices (≥768px)
+    768: {
+      slidesPerView: 6,
+      spaceBetween: 25,
+    },
+
+    // Large devices (≥992px)
+    992: {
+      slidesPerView: 6,
+      spaceBetween: 30,
+    },
+
+    // Extra Large devices (≥1200px)
+    1200: {
+      slidesPerView: 6,
+      spaceBetween: 30,
+    }
+  }
+
+
   });
 
   
