@@ -1,6 +1,13 @@
 (function ($) {
   "use strict";
 
+	// PreLoader Js
+  var windowOn = $(window);
+	windowOn.on('load',function() {
+		$("#loading").fadeOut(500);
+	});
+
+
   // mobile menu 
     $('#mobile-menu').meanmenu({
         meanScreenWidth: "991",
@@ -99,7 +106,6 @@
 	});
 
   // sticky header
-  var windowOn = $(window);
   windowOn.on('scroll', function () {
 		var scroll = $(window).scrollTop();
 		if (scroll < 100) {
