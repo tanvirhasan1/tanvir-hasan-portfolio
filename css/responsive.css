@@ -305,4 +305,6 @@
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media only screen and (min-width: 1400px) and (max-width: 1600px) {}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    
+}
