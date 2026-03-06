@@ -23,6 +23,7 @@
   autoplay: {
     delay: 2700,
     disableOnInteraction: false,
+    pauseOnMouseEnter: true,
   },
 
   breakpoints: {
