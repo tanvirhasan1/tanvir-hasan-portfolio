@@ -118,4 +118,8 @@
   // wow js 
   new WOW().init();
 
+  $('.popup-link').magnificPopup({
+  type: 'iframe'
+});
+
 })(jQuery);

@@ -433,10 +433,12 @@ label {
   text-decoration: none;
   border-radius: 30px;
   background: linear-gradient(135deg, #515bf9, #764ba2);
-  transition: all 0.3s linear;
+  transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
+  transform: scale(1);
 }
 .project-info-link a:hover {
+  transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(118, 75, 162, 0.35);
   background: linear-gradient(135deg, #764ba2, #515bf9);
 }
@@ -597,14 +599,16 @@ label {
 }
 .contact-form form button {
   color: #fff;
-  background: #1696e7;
+  font-size: 17px;
+  font-weight: 600;
+  background: #5F65FB;
   width: 100%;
   height: 60px;
   margin-top: 20px;
   border: 1px solid transparent;
 }
 .contact-form form button:hover {
-  background: #515bf9;
+  background: rgba(81, 92, 249, 0.593);
   border-color: #515bf9;
 } 
 /* footer area */
