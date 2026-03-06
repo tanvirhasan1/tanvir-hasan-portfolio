@@ -410,26 +410,13 @@ label {
   visibility: hidden;
   transition: all .3s ease;
 }
-
 /* hover show */
-
 .single-skill:hover::after,
 .single-skill:hover::before{
   opacity: 1;
   visibility: visible;
   transform: translate(-50%,0);
 }
-
-
-
-
-
-
-
-
-
-
-
 .single-skill img {
 	width: 80px;
   transform: scale(1);
@@ -647,6 +634,7 @@ label {
   width: 100%;
   min-height: 180px;
   border: none;
+  resize: none;
 }
 .contact-form form input:focus-visible,
 .contact-form form textarea:focus-visible {
