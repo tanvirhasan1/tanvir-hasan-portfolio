@@ -635,6 +635,7 @@ label {
   min-height: 180px;
   border: none;
   resize: none;
+  padding: 15px;
 }
 .contact-form form input:focus-visible,
 .contact-form form textarea:focus-visible {
